@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana;
+  outline: none;
+}
+body {
+  display: flex;
+}
+.none {
+  display: none;
+}
+.info-wrapper {
+  background: linear-gradient(to left, rgb(66, 208, 202), rgb(160, 219, 236));
+  width: 70vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.login-wrapper {
+  background-color: #ffffff;
+  color: rgb(236, 237, 243);
+  width: 30vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  padding: 10px;
+  width: 500px;
+}
+label {
+  color: #041d27;
+  font-size: 1em;
+}
+#email,
+#pass,
+#fname,
+#lname {
+  font-size: 1rem;
+  border-radius: 4px;
+  width: 100%;
+  padding: 14px 0px;
+  margin: 20px auto;
+  display: block;
+  border: 1px solid #ccc;
+}
+#login-btn,
+#signup-btn {
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 4px;
+  width: 100%;
+  background-color: #3fb8e7;
+  color: white;
+  padding: 14px;
+  margin: 20px auto;
+  border: none;
+  cursor: pointer;
+}
+#login-btn:hover,
+#signup-btn:hover {
+  background-color: #2e86a8;
+}
+.sign-up:hover,
+.forgot-pass:hover,
+.log-in:hover {
+  color: #2e86a8;
+}
+.sign-up,
+.forgot-pass,
+.log-in {
+  text-decoration: none;
+  color: #041d27;
+}
+.l-link {
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.log-txt {
+  padding-bottom: 30px;
+  color: #3fb8e7;
+}
+.info {
+  color: #ffffffc5;
+  margin: 20px;
+  font-size: 18px;
+}
+.info h1 {
+  padding: 20px 20px;
+  font-size: 3em;
+}
+.info h2 {
+  color: #eee5e5;
+  padding: 30px 300px;
+  font-size: 4em;
+}
+.info h3 {
+  font-size: 2em;
+  padding: 20px 300px;
+}
+.info p {
+  padding: 20px 10px 10px 500px;
+  max-width: 1000px;
+}
