@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana;
+}
+.header-nav {
+  height: 50px;
+  background-color: #3fb8e7;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #312e2e;
+  font-size: 1em;
+  line-height: 50px;
+  padding: 10px;
+}
+.nav-link:hover {
+  color: #cfcfcf;
+}
+.home-slide {
+  background: url('https://images.pexels.com/photos/265076/pexels-photo-265076.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
+  background-size: cover;
+  background-position: bottom;
+  margin: 1px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  font-size: 20px;
+  color: #252525;
+}
+.home-slide h1 {
+  margin-top: 250px;
+  padding: 20px;
+}
+.depts-slide {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 25px;
+  background-color: #f1ecec;
+}
+.depts-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+  width: 350px;
+  height: 350px;
+}
+.depts-card h3 a {
+  text-decoration: none;
+  color: #131212;
+  font-size: 0.8em;
+}
+.depts-card h3 a:hover {
+  color: #494848;
+}
+.footer {
+  background: #7c7a7a;
+  position: fixed;
+  bottom: 0px;
+  width: 100vw;
+  padding: 4px 20px;
+  text-align: center;
+  border-top: 1px solid #636363;
+}
+.footer small {
+  float: right;
+}
+.last {
+  margin-left: 80%;
+}

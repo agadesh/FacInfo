@@ -12,7 +12,8 @@ body {
   display: none;
 }
 .info-wrapper {
-  background: linear-gradient(to left, rgb(66, 208, 202), rgb(160, 219, 236));
+  background: url('https://images.pexels.com/photos/5412/water-blue-ocean.jpg?auto=compress&cs=tinysrgb&h=750&w=1260');
+  background-size: cover;
   width: 70vw;
   height: 100vh;
   display: flex;
@@ -95,14 +96,15 @@ label {
 }
 .info h2 {
   color: #eee5e5;
-  padding: 30px 300px;
+  padding: 30px 30px 30px 500px;
+  text-align: right;
   font-size: 4em;
 }
 .info h3 {
   font-size: 2em;
-  padding: 20px 300px;
+  padding: 20px 150px;
 }
 .info p {
-  padding: 20px 10px 10px 500px;
-  max-width: 1000px;
+  padding: 20px 150px;
+  max-width: 800px;
 }
